@@ -15,11 +15,13 @@ This makes it so that the entire team can see how the tests ran (success/failure
 No
 
 3. What is the difference between navigation and snapshot mode?
-   Navigation mode will analyze the page after a fresh page load and measure performance and other metrics (which we saw with the 4 categories) during that page load. Snapshot mode is best used for finding accessibility issues because it doesn't analyze from a fresh page load (thus it can't measure performance or other loading behavior), it looks at the page at its current state. So snapshot effectively is suited towards its name, taking a snapshot of the page's current state which may have already been interacted with to test accessibility
 
-4. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
-   Based on the results, performance and best practices were rated 100 but accessibility a 90 and SEO a 91.
-   We could improve on the following:
+Navigation mode will analyze the page after a fresh page load and measure performance and other metrics (which we saw with the 4 categories) during that page load. Snapshot mode is best used for finding accessibility issues because it doesn't analyze from a fresh page load (thus it can't measure performance or other loading behavior), it looks at the page at its current state. So snapshot effectively is suited towards its name, taking a snapshot of the page's current state which may have already been interacted with to test accessibility
+
+5. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+
+Based on the results, performance and best practices were rated 100 but accessibility a 90 and SEO a 91.
+We could improve on the following:
 
 - accessbility: add a lang attribute to the html tag, currently assumes that the content is in the user's default language which could pose as a problem if it actually isn't
 - seo: add a meta tag with a clear and concise description so the page isn't marked as spam and it's treated as more relevant
